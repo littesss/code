@@ -17,7 +17,8 @@ sudo git  clone http://www.github.com/***/****
 sudo config  user.username --global "yourname"          (yourname，填你自己的名字)
 sudo config user.email --global "youremai@.163.com"  
 
-4. 本地就多了一个目录是你github上的项目
+4
+ 本地就多了一个目录是你github上的项目
 然后你就可以进入里面在linux上面进行代码填充，
 
 5. git 添加代码
@@ -65,4 +66,13 @@ git commit -am "***" // -a是修改了目录
 E
 使用命令checkout来恢复：git checkout -- file_name
 
+
+//github出现的问题
+1. lsh@ubuntu:~/git/code$ git push
+    fatal: You are not currently on a branch.
+    To push the history leading to the current (detached HEAD)
+    state now, use
+    git push origin HEAD:<name-of-remote-branch>
+解决：
+git push origin HEAD:master --force 
 
