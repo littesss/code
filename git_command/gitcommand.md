@@ -1,3 +1,12 @@
+1. git clone https://github.com/littesss/code
+2. git add t.sh
+3. git commit -m "shell login Server script"
+4. git push
+       user:littesss
+     passwd:*****
+5. OK!!!
+
+
 
 github：是一个面向开源并且私有软件的一个托管平台，国内不必翻墙就可以进入
 github：有趣的故事
